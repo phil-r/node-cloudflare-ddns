@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "Small node.js program that allows you to use CloudFlare as a DDNS / DynDNS Provider. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker-build": "docker build -t philrukin/cloudflare-ddns .",
+    "docker-build:rpi": "docker build -t philrukin/cloudflare-ddns:rpi -f Dockerfile.raspberry-pi .",
+    "docker-run": "docker run philrukin/cloudflare-ddns",
+    "docker-run:rpi": "docker run philrukin/cloudflare-ddns:rpi"
+  },
+  "author": "Phil Rukin <philipp@rukin.me> (http://rukin.me)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dotenv": "^4.0.0"
+  }
+}
