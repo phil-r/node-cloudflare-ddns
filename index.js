@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('dotenv').config();
 const { PROXIED, ZONE, SUBDOMAIN } = process.env;
 const axios = require('axios');

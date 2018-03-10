@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git@github.com:phil-r/node-cloudflare-ddns.git"
   },
+  "bin": {
+    "cloudflare-ddns": "index.js"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
