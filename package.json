@@ -6,6 +6,18 @@
     "type": "git",
     "url": "git@github.com:phil-r/node-cloudflare-ddns.git"
   },
+  "keywords": [
+    "cloudflare",
+    "ddns",
+    "dns",
+    "dyndns"
+  ],
+  "tags": [
+    "cloudflare",
+    "ddns",
+    "dns",
+    "dyndns"
+  ],
   "bin": {
     "cloudflare-ddns": "index.js"
   },
