@@ -1,6 +1,6 @@
 {
   "name": "@phil-r/cloudflare-ddns",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small node.js program that allows you to use CloudFlare as a DDNS / DynDNS Provider. ",
   "repository": {
     "type": "git",
